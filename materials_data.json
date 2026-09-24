@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-22T02:58:23.007585+00:00",
+  "source_csv": "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/materials_database/materials_lib.csv",
+  "materials": [
+    {
+      "parameters": {
+        "material_id": 0,
+        "name": "Al",
+        "density_g_cm3": 2.702,
+        "molar_mass_g_mol": 26.9815385,
+        "atoms_per_formula": 1.0,
+        "sputter_yield_by_kv": {
+          "16.0": 3.33059,
+          "30.0": 3.75032
+        },
+        "emission_power_by_kv": {
+          "16.0": 6.73544056326956,
+          "30.0": 6.16581873358814
+        },
+        "sigmund_a_by_kv": {
+          "16.0": 154.757986721867,
+          "30.0": 242.06024721
+        },
+        "sigmund_alpha_by_kv": {
+          "16.0": 56.1190482774909,
+          "30.0": 88.0875688026041
+        },
+        "sigmund_beta_by_kv": {
+          "16.0": 45.9771193202167,
+          "30.0": 69.2471754540539
+        },
+        "normal_sputter_yield_constant": null,
+        "emission_power_constant": null,
+        "sticking_coefficient": 0.8,
+        "sticking_power": 2.0,
+        "sigmund_a": 107.6,
+        "sigmund_alpha": 59.9,
+        "sigmund_beta": 59.9
+      },
+      "metadata": {
+        "material_type": "element",
+        "composition": [
+          {
+            "symbol": "Al",
+            "stoich": 1.0
+          }
+        ],
+        "density_and_composition_source": "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Al/simulation_parameters.json",
+        "sputter_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_sputter/elements/Al/analysis_results/summary.json"
+        ],
+        "full_cascade_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Al/parameter_analysis/cascade_parameters.csv"
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "material_id": 4,
+        "name": "Au",
+        "density_g_cm3": 19.32,
+        "molar_mass_g_mol": 196.96657,
+        "atoms_per_formula": 1.0,
+        "sputter_yield_by_kv": {
+          "16.0": 16.34072,
+          "30.0": 18.28422
+        },
+        "emission_power_by_kv": {
+          "16.0": 3.32284676076201,
+          "30.0": 3.29789471437837
+        },
+        "sigmund_a_by_kv": {
+          "16.0": 60.8471296139319,
+          "30.0": 93.4054430075607
+        },
+        "sigmund_alpha_by_kv": {
+          "16.0": 37.5850741487906,
+          "30.0": 57.1524405120321
+        },
+        "sigmund_beta_by_kv": {
+          "16.0": 41.0861417179591,
+          "30.0": 61.8069290491184
+        },
+        "normal_sputter_yield_constant": null,
+        "emission_power_constant": null,
+        "sticking_coefficient": 0.8,
+        "sticking_power": 2.0,
+        "sigmund_a": 107.6,
+        "sigmund_alpha": 59.9,
+        "sigmund_beta": 59.9
+      },
+      "metadata": {
+        "material_type": "element",
+        "composition": [
+          {
+            "symbol": "Au",
+            "stoich": 1.0
+          }
+        ],
+        "density_and_composition_source": "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Au/simulation_parameters.json",
+        "sputter_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_sputter/elements/Au/analysis_results/summary.json"
+        ],
+        "full_cascade_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Au/parameter_analysis/cascade_parameters.csv"
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "material_id": 5,
+        "name": "Cu",
+        "density_g_cm3": 8.92,
+        "molar_mass_g_mol": 63.546,
+        "atoms_per_formula": 1.0,
+        "sputter_yield_by_kv": {
+          "16.0": 11.01681,
+          "30.0": 11.73343
+        },
+        "emission_power_by_kv": {
+          "16.0": 3.97560678390507,
+          "30.0": 3.8445911065942
+        },
+        "sigmund_a_by_kv": {
+          "16.0": 65.0173435060425,
+          "30.0": 102.829551184588
+        },
+        "sigmund_alpha_by_kv": {
+          "16.0": 33.8069766991942,
+          "30.0": 52.7257745844217
+        },
+        "sigmund_beta_by_kv": {
+          "16.0": 29.5510723184828,
+          "30.0": 45.2862511984291
+        },
+        "normal_sputter_yield_constant": null,
+        "emission_power_constant": null,
+        "sticking_coefficient": 0.8,
+        "sticking_power": 2.0,
+        "sigmund_a": 107.6,
+        "sigmund_alpha": 59.9,
+        "sigmund_beta": 59.9
+      },
+      "metadata": {
+        "material_type": "element",
+        "composition": [
+          {
+            "symbol": "Cu",
+            "stoich": 1.0
+          }
+        ],
+        "density_and_composition_source": "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Cu/simulation_parameters.json",
+        "sputter_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_sputter/elements/Cu/analysis_results/summary.json"
+        ],
+        "full_cascade_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Cu/parameter_analysis/cascade_parameters.csv"
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "material_id": 9,
+        "name": "Mo",
+        "density_g_cm3": 10.22,
+        "molar_mass_g_mol": 95.95,
+        "atoms_per_formula": 1.0,
+        "sputter_yield_by_kv": {
+          "16.0": 5.22461,
+          "30.0": 5.61921
+        },
+        "emission_power_by_kv": {
+          "16.0": 3.24097782570247,
+          "30.0": 3.16654139130291
+        },
+        "sigmund_a_by_kv": {
+          "16.0": 68.7441153716129,
+          "30.0": 107.619790391443
+        },
+        "sigmund_alpha_by_kv": {
+          "16.0": 39.1579622015493,
+          "30.0": 60.4160993658565
+        },
+        "sigmund_beta_by_kv": {
+          "16.0": 36.6905132497361,
+          "30.0": 55.4412786889037
+        },
+        "normal_sputter_yield_constant": null,
+        "emission_power_constant": null,
+        "sticking_coefficient": 0.8,
+        "sticking_power": 2.0,
+        "sigmund_a": 107.6,
+        "sigmund_alpha": 59.9,
+        "sigmund_beta": 59.9
+      },
+      "metadata": {
+        "material_type": "element",
+        "composition": [
+          {
+            "symbol": "Mo",
+            "stoich": 1.0
+          }
+        ],
+        "density_and_composition_source": "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Mo/simulation_parameters.json",
+        "sputter_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_sputter/elements/Mo/analysis_results/summary.json"
+        ],
+        "full_cascade_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Mo/parameter_analysis/cascade_parameters.csv"
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "material_id": 10,
+        "name": "Pt",
+        "density_g_cm3": 21.45,
+        "molar_mass_g_mol": 195.084,
+        "atoms_per_formula": 1.0,
+        "sputter_yield_by_kv": {
+          "16.0": 11.72164,
+          "30.0": 13.13408
+        },
+        "emission_power_by_kv": {
+          "16.0": 3.41708491873889,
+          "30.0": 3.39712670715782
+        },
+        "sigmund_a_by_kv": {
+          "16.0": 54.4637456089337,
+          "30.0": 83.3374711116522
+        },
+        "sigmund_alpha_by_kv": {
+          "16.0": 33.5808587440639,
+          "30.0": 50.9064168187609
+        },
+        "sigmund_beta_by_kv": {
+          "16.0": 36.4772610088152,
+          "30.0": 55.0596254511315
+        },
+        "normal_sputter_yield_constant": null,
+        "emission_power_constant": null,
+        "sticking_coefficient": 0.8,
+        "sticking_power": 2.0,
+        "sigmund_a": 107.6,
+        "sigmund_alpha": 59.9,
+        "sigmund_beta": 59.9
+      },
+      "metadata": {
+        "material_type": "element",
+        "composition": [
+          {
+            "symbol": "Pt",
+            "stoich": 1.0
+          }
+        ],
+        "density_and_composition_source": "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Pt/simulation_parameters.json",
+        "sputter_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_sputter/elements/Pt/analysis_results/summary.json"
+        ],
+        "full_cascade_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Pt/parameter_analysis/cascade_parameters.csv"
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "material_id": 11,
+        "name": "Si",
+        "density_g_cm3": 2.33,
+        "molar_mass_g_mol": 28.085,
+        "atoms_per_formula": 1.0,
+        "sputter_yield_by_kv": {
+          "16.0": 1.9894,
+          "30.0": 2.2918
+        },
+        "emission_power_by_kv": {
+          "16.0": 3.85227152266068,
+          "30.0": 3.59394754144886
+        },
+        "sigmund_a_by_kv": {
+          "16.0": 178.074024934949,
+          "30.0": 278.731142540125
+        },
+        "sigmund_alpha_by_kv": {
+          "16.0": 66.2025123911058,
+          "30.0": 103.688353509487
+        },
+        "sigmund_beta_by_kv": {
+          "16.0": 54.013873163076,
+          "30.0": 81.8390723334159
+        },
+        "normal_sputter_yield_constant": null,
+        "emission_power_constant": null,
+        "sticking_coefficient": 0.8,
+        "sticking_power": 2.0,
+        "sigmund_a": 107.6,
+        "sigmund_alpha": 59.9,
+        "sigmund_beta": 59.9
+      },
+      "metadata": {
+        "material_type": "element",
+        "composition": [
+          {
+            "symbol": "Si",
+            "stoich": 1.0
+          }
+        ],
+        "density_and_composition_source": "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Si/simulation_parameters.json",
+        "sputter_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_sputter/elements/Si/analysis_results/summary.json"
+        ],
+        "full_cascade_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Si/parameter_analysis/cascade_parameters.csv"
+        ]
+      }
+    },
+    {
+      "parameters": {
+        "material_id": 15,
+        "name": "Ti",
+        "density_g_cm3": 4.507,
+        "molar_mass_g_mol": 47.867,
+        "atoms_per_formula": 1.0,
+        "sputter_yield_by_kv": {
+          "16.0": 2.02508,
+          "30.0": 2.28541
+        },
+        "emission_power_by_kv": {
+          "16.0": 3.00253062165509,
+          "30.0": 2.8366188287419
+        },
+        "sigmund_a_by_kv": {
+          "16.0": 114.019588027898,
+          "30.0": 179.557453413675
+        },
+        "sigmund_alpha_by_kv": {
+          "16.0": 53.2477714915979,
+          "30.0": 83.3099722784129
+        },
+        "sigmund_beta_by_kv": {
+          "16.0": 45.0493168990193,
+          "30.0": 68.4068476631338
+        },
+        "normal_sputter_yield_constant": null,
+        "emission_power_constant": null,
+        "sticking_coefficient": 0.8,
+        "sticking_power": 2.0,
+        "sigmund_a": 107.6,
+        "sigmund_alpha": 59.9,
+        "sigmund_beta": 59.9
+      },
+      "metadata": {
+        "material_type": "element",
+        "composition": [
+          {
+            "symbol": "Ti",
+            "stoich": 1.0
+          }
+        ],
+        "density_and_composition_source": "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Ti/simulation_parameters.json",
+        "sputter_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_sputter/elements/Ti/analysis_results/summary.json"
+        ],
+        "full_cascade_sources": [
+          "/home/majie/modelFolder/01FIBmodel/materDatabase_srim/Ga_ion_fullcascade/elements/Ti/parameter_analysis/cascade_parameters.csv"
+        ]
+      }
+    }
+  ],
+  "skipped_materials": {
+    "Al2O3": "missing fields: a(A), alpha(A), beta(A)",
+    "AlGaN": "missing fields: Y0, a(A), alpha(A), angular_distribution_power_n, beta(A)",
+    "AlN": "missing fields: a(A), alpha(A), beta(A)",
+    "GaAs": "missing fields: Y0, a(A), alpha(A), angular_distribution_power_n, beta(A)",
+    "GaN": "missing fields: Y0, a(A), alpha(A), angular_distribution_power_n, beta(A)",
+    "InGaAs": "missing fields: Y0, a(A), alpha(A), angular_distribution_power_n, beta(A)",
+    "Si3N4": "missing fields: a(A), alpha(A), beta(A)",
+    "SiC": "missing fields: a(A), alpha(A), beta(A)",
+    "SiO2": "missing fields: a(A), alpha(A), beta(A)",
+    "W": "missing fields: a(A), alpha(A), beta(A)"
+  }
+}
