@@ -1,0 +1,6 @@
+# Runtime dependencies
+# Versions match the validated pib_env environment.
+numpy==2.5.1
+matplotlib==3.11.1
+numba==0.67.0
+vtk==9.6.2
