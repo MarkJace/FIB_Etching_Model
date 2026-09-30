@@ -18,7 +18,7 @@ Others:
 3. README.md: this description.
 
 Filefolders:
-1. materials_lib_computation:
+1. materials_lib_computation: materials data source.
 2. test_output: a group of test simulation results, in the real simulation, all the .png, .npy and .vtk files will be outputed.
 
 Commonly, only write and run the simu_run.py to start the simulation.
@@ -37,3 +37,5 @@ from simu_workflow import (
 ```
 The commands achieved all basic functions in this package, including define the simulation frame, build the initial structure, define the etchi area, set simulation parameters and run the simulation.
 The current simu_run.py here is an examples.
+
+All the materials sputtering data are calculated by SRIM & TRIM (http://www.srim.org/)
