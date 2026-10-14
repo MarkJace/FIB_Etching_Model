@@ -18,8 +18,7 @@ Others:
 3. README.md: this description.
 
 Filefolders:
-1. materials_lib_computation: materials data source.
-2. test_output: a group of test simulation results, in the real simulation, all the .png, .npy and .vtk files will be outputed.
+1. test_output: a group of test simulation results, in the real simulation, all the .png, .npy and .vtk files will be outputed.
 
 Commonly, only write and run the simu_run.py to start the simulation.
 import the commands from simu_workflow:
